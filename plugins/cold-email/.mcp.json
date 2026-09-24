@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "apollo": {
+      "type": "http",
+      "url": "https://mcp.apollo.io/mcp"
+    },
+    "firecrawl": {
+      "type": "http",
+      "url": "https://mcp.firecrawl.dev/v2/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FIRECRAWL_API_KEY}"
+      }
+    },
+    "instantly": {
+      "type": "http",
+      "url": "https://mcp.instantly.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${INSTANTLY_API_KEY}"
+      }
+    }
+  }
+}

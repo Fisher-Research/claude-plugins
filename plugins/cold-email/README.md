@@ -27,11 +27,5 @@ If you don't name a campaign, the plugin creates a new one in Instantly. You can
 ## Setup
 
 1. Install the plugin (see the [repository README](../../README.md)).
-2. Set your API keys in the shell you start Claude Code from:
-
-   ```sh
-   export FIRECRAWL_API_KEY=...
-   export INSTANTLY_API_KEY=...
-   ```
-
+2. Enter your Firecrawl and Instantly API keys when prompted during install. Keys are stored in your system's secure credential store. To change them later, run `/plugin configure cold-email@fisher-research`.
 3. Start Claude Code, run `/mcp`, and sign in to Apollo.

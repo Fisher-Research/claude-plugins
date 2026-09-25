@@ -13,4 +13,4 @@ Add this repository as a plugin marketplace, then install a plugin:
 
 ## Plugins
 
-- [cold-email](plugins/cold-email/README.md): find leads, write personalized cold emails, and upload them to Instantly with one command.
+- [cold-email](plugins/cold-email/README.md): find leads with Firecrawl and Apollo, write personalized cold emails, and upload them to Instantly with one command.

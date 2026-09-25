@@ -8,14 +8,14 @@
       "type": "http",
       "url": "https://mcp.firecrawl.dev/v2/mcp",
       "headers": {
-        "Authorization": "Bearer ${FIRECRAWL_API_KEY}"
+        "Authorization": "Bearer ${user_config.firecrawl_api_key}"
       }
     },
     "instantly": {
       "type": "http",
       "url": "https://mcp.instantly.ai/mcp",
       "headers": {
-        "Authorization": "Bearer ${INSTANTLY_API_KEY}"
+        "Authorization": "Bearer ${user_config.instantly_api_key}"
       }
     }
   }

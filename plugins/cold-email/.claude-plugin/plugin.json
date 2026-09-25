@@ -8,5 +8,21 @@
   },
   "homepage": "https://github.com/Fisher-Research/claude-plugins",
   "license": "MIT",
-  "keywords": ["cold-email", "outbound", "apollo", "instantly", "firecrawl", "lead-generation"]
+  "keywords": ["cold-email", "outbound", "apollo", "instantly", "firecrawl", "lead-generation"],
+  "userConfig": {
+    "firecrawl_api_key": {
+      "type": "string",
+      "title": "Firecrawl API key",
+      "description": "From firecrawl.dev/app/api-keys. Used to research lead websites.",
+      "required": true,
+      "sensitive": true
+    },
+    "instantly_api_key": {
+      "type": "string",
+      "title": "Instantly API key",
+      "description": "From Instantly Settings > Integrations > API. Used to upload leads and emails.",
+      "required": true,
+      "sensitive": true
+    }
+  }
 }

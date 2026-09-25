@@ -6,7 +6,7 @@
     "name": "Fisher Research",
     "url": "https://fisherresearch.dev"
   },
-  "homepage": "https://github.com/Fisher-Research/claude-skills",
+  "homepage": "https://github.com/Fisher-Research/claude-plugins",
   "license": "MIT",
   "keywords": ["cold-email", "outbound", "apollo", "instantly", "firecrawl", "lead-generation"]
 }

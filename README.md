@@ -7,7 +7,7 @@ Claude Code plugins published by [Fisher Research](https://fisherresearch.dev).
 Add this repository as a plugin marketplace, then install a plugin:
 
 ```text
-/plugin marketplace add Fisher-Research/claude-skills
+/plugin marketplace add Fisher-Research/claude-plugins
 /plugin install cold-email@fisher-research
 ```
 

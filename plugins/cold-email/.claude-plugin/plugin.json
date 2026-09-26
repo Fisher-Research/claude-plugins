@@ -1,6 +1,6 @@
 {
   "name": "cold-email",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Find leads with Firecrawl and Apollo, write personalized cold emails, and upload them to Instantly.",
   "author": {
     "name": "Fisher Research",
@@ -8,27 +8,20 @@
   },
   "homepage": "https://github.com/Fisher-Research/claude-plugins",
   "license": "MIT",
-  "keywords": [
-    "cold-email",
-    "outbound",
-    "apollo",
-    "instantly",
-    "firecrawl",
-    "lead-generation"
-  ],
+  "keywords": ["cold-email", "outbound", "apollo", "instantly", "firecrawl", "lead-generation"],
   "userConfig": {
+    "firecrawl_api_key": {
+      "type": "string",
+      "title": "Firecrawl API key",
+      "description": "From firecrawl.dev/app/api-keys. Used to research lead websites.",
+      "required": true,
+      "sensitive": true
+    },
     "instantly_api_key": {
       "type": "string",
       "title": "Instantly API key",
       "description": "From Instantly Settings > Integrations > API. Used to upload leads and emails.",
       "required": true,
-      "sensitive": true
-    },
-    "firecrawl_api_key": {
-      "type": "string",
-      "title": "Firecrawl API key (optional)",
-      "description": "From firecrawl.dev/app/api-keys. Leave blank to use Firecrawl's free keyless tier; a key unlocks your plan's credits and full toolset.",
-      "required": false,
       "sensitive": true
     }
   }
